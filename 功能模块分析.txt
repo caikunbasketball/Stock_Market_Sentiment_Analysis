@@ -1,0 +1,19 @@
+# 功能模块分析
+
+## 1. 模型训练模块
+- model_ml.py: 实现8种机器学习模型用于情感分类
+- model_dl.py: 实现3种深度学习模型用于情感分类
+
+## 2. 情感计算模块
+- compute_sent_idx.py: 计算情感指标，分析股评情感倾向
+
+## 3. 可视化模块
+- plot_sent_idx.py: 可视化情感指标与股市关系
+
+## 4. 数据模块
+- data/positive.txt: 正面情感标注数据
+- data/negative.txt: 负面情感标注数据
+- data/sh000001.csv: 股市数据
+- data/stock_comments.zip: 股评原始数据
+
+项目通过分析股评文本情感倾向，构建情感指标，研究其与股市关系，为投资决策提供参考。

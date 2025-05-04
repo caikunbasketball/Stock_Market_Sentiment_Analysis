@@ -1,0 +1,24 @@
+# 目录结构分析
+
+## 根目录文件
+- README.md: 项目说明文档，包含项目简介、使用方法和总结
+- model_ml.py: 机器学习模型实现，对比8种不同算法
+  参数：无(自动加载data目录下的标注数据)
+- model_dl.py: 深度学习模型实现，对比3种不同架构
+  参数：无(自动加载data目录下的标注数据)
+- compute_sent_idx.py: 计算情感指标的核心代码
+  参数：无(自动处理data/stock_comments.zip和data/sh000001.csv)
+- plot_sent_idx.py: 可视化情感指标与股市关系的代码
+  参数：无(自动加载compute_sent_idx.py生成的结果)
+- model_ml_scores.csv: 机器学习模型评估结果数据
+
+
+## data目录
+- positive.txt: 正面情感标注的股评数据
+- negative.txt: 负面情感标注的股评数据
+- sh000001.csv: 上证指数历史数据
+- stock_comments.zip: 原始股评数据压缩包
+
+## img目录
+- BI.png: 情感指标图表
+- BI_and_Market.png: 情感指标与股市对比图表
